@@ -8,5 +8,15 @@
     "last_name": "ali",
     "age": "123",
     "gender": "male"
+  },
+  {
+    "id": "353efa6d-1666-40c8-88bc-9a970d3b59fe",
+    "username": "abdurauf",
+    "password": "2639587d0ba2cf2eb7fa57d22ea296a8b2ba6793ab42a5aba4f44f7ba7074712",
+    "phone": "911069453",
+    "first_name": "ABdurauf",
+    "last_name": "Nasrullayev",
+    "age": "20",
+    "gender": "Male"
   }
 ]

@@ -8,3 +8,6 @@ def print_status(text, status):
     }
     text = colored(text, status_map.get(status, 'red'))
     print(text)
+
+def PrintTable():
+    print("1)Login \n 2) Registratsiya \n 3) Chiqish")

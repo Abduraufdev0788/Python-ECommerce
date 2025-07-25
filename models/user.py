@@ -95,3 +95,14 @@ class User:
                 return True
             
         return False
+    @classmethod
+    def login_user_name(cls):
+        user_n = input("Username kiriting: ")
+        password_u = make_password(input("passwordni kiriting: "))
+        
+        with open("database/users.json", "r") as jsonfile:
+            data = json.load(jsonfile)
+        for user in data:
+            if user['username'] == user_n and user['password'] == password_u :
+                print("siz loginingizga muvofaqiyatli kirdingiz")
+
